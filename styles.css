@@ -162,6 +162,7 @@ p { margin: 0 0 12px; }
 .review p { font-style: italic; color: var(--clr-ink); }
 .review__name { font-size: 13.5px; color: var(--clr-ink-soft); font-weight: 600; }
 .reviews__note { margin-top: 20px; font-size: 13px; color: var(--clr-ink-soft); opacity: .8; }
+.reviews__note a { text-decoration: underline; opacity: 1; color: var(--clr-accent-dark); }
 
 /* FAQ */
 .faq { padding: 0 0 88px; }
@@ -172,6 +173,7 @@ p { margin: 0 0 12px; }
 .faq__item summary::after { content: '+'; position: absolute; right: 0; top: 0; font-size: 20px; color: var(--clr-accent-dark); }
 .faq__item[open] summary::after { content: '−'; }
 .faq__item p { margin-top: 12px; color: var(--clr-ink-soft); font-size: 15px; }
+.faq__item p a { color: var(--clr-accent-dark); text-decoration: underline; }
 
 /* FORM */
 .form-section { padding: 0 0 96px; }
