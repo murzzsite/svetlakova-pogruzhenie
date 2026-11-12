@@ -84,11 +84,7 @@ p { margin: 0 0 12px; }
   background: var(--clr-surface); border-radius: var(--radius); box-shadow: var(--shadow);
   overflow: hidden; border: 1px solid var(--clr-border);
 }
-.hero__card-photo {
-  height: 260px; display: flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, var(--clr-accent), var(--clr-gold));
-  color: #fff; font-family: var(--font-head); font-size: 56px; font-weight: 700;
-}
+.hero__card-photo { display: block; width: 100%; height: 360px; object-fit: cover; object-position: center 25%; }
 .hero__card-body { padding: 26px; }
 .hero__card-quote { font-family: var(--font-head); font-style: italic; font-size: 17px; color: var(--clr-ink); }
 .hero__card-name { font-size: 14px; color: var(--clr-ink-soft); font-weight: 600; }
@@ -247,3 +243,5 @@ p { margin: 0 0 12px; }
 @media (max-width: 380px) {
   .logo span { display: none; }
 }
+
+.footer__addr { color: #c9cfb9; font-size: 14.5px; }
